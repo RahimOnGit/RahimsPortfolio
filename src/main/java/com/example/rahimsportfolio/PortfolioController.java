@@ -23,6 +23,11 @@ public class PortfolioController {
     }
 
 
+    @GetMapping("/projects")
+    public String showProjects() {
+        return "projects";
+    }
+
 
 
 
