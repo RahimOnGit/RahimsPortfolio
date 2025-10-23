@@ -11,4 +11,19 @@ public class PortfolioController {
         return "index";
     }
 
+@GetMapping("/more")
+    public String showMore() {
+        return "more";
+    }
+
+
+    @GetMapping("/profile")
+    public String showProfile() {
+        return "profile";
+    }
+
+
+
+
+
 }
