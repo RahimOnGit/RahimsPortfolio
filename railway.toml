@@ -2,7 +2,4 @@
 builder = "maven"
 
 [deploy]
-startCommand = "java -jar target/*.jar --server.port=$PORT"
-
-[env]
-PORT = "8080"
+startCommand = "java -Dserver.port=$PORT -jar target/*.jar"
